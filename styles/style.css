@@ -157,3 +157,44 @@
   block-size: var(--floppy-size);
   inline-size: var(--floppy-size);
 }
+
+.save-dialog:open {
+  display: flex;
+  flex-direction: column;
+  padding-block: 30px;
+  padding-inline: var(--dialog-padding-inline);
+  gap: 30px;
+  font-family: var(--accent-font), system-ui;
+  border: 2px solid currentColor;
+  inline-size: var(--dialog-inline-size);
+}
+
+::backdrop {
+  opacity: 75%;
+  background-color: currentColor;
+}
+
+.dialog-description {
+  display: flex;
+  gap: 20px;
+}
+
+.dialog__icon {
+  inline-size: 39px;
+  block-size: 39px;
+  align-self: center;
+}
+
+.dialog__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5em;
+  font-size: 14px;
+  font-weight: var(--accent-font-weight);
+  text-transform: uppercase;
+}
+
+.ok-button {
+  padding-block: 11.5px;
+  text-transform: uppercase;
+}

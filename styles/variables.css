@@ -11,6 +11,8 @@
   --header-padding-block: clamp(122px, 2em, 130px);
   --card-image-container-size: clamp(375px, 50vw, 700px);
   --floppy-size: 21px;
+  --dialog-padding-inline: 30px;
+  --dialog-inline-size: 353px;
   --heart-contour-color: #000;
   --animation-fill-color: red;
   --sparks-color: red;

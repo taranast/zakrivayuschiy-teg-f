@@ -229,12 +229,23 @@
           </article>
         </li>
       </ul>
-      <button class="button save-button">
+      <button class="button save-button" onclick="window['dialog'].showModal();">
         <svg class="save-button__icon" viewBox="0 0 39 39">
           <use href="./svg/floppy.svg#floppy" />
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
+      <dialog id="dialog" class="save-dialog">
+        <div class="dialog-description">
+          <svg class="dialog__icon" viewBox="0 0 39 39">
+            <use href="./svg/floppy.svg#floppy" />
+          </svg>
+          <p class="dialog__text"><span>Вставьте</span><span>дискету, чтобы</span><span>продолжить</span></p>
+        </div>
+        <button class="button ok-button" onclick="window['dialog'].close();">
+          <span class="button__text">ок</span>
+        </button>
+      </dialog>
     </main>
     <script src="./scripts/like.js"></script>
   </body>
