@@ -144,3 +144,16 @@
   padding-block: 11px;
   inline-size: 130px;
 }
+
+.save-button {
+  display: flex;
+  padding: 16px 19px;
+  gap: 8px;
+  align-items: center;
+  align-self: center;
+}
+
+.save-button__icon {
+  block-size: var(--floppy-size);
+  inline-size: var(--floppy-size);
+}

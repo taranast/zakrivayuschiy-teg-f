@@ -10,6 +10,7 @@
   --header-title-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   --header-padding-block: clamp(122px, 2em, 130px);
   --card-image-container-size: clamp(375px, 50vw, 700px);
+  --floppy-size: 21px;
   --heart-contour-color: #000;
   --animation-fill-color: red;
   --sparks-color: red;
