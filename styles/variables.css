@@ -17,3 +17,13 @@
   --animation-fill-color: red;
   --sparks-color: red;
 }
+
+@media (width <= 375.2px) {
+  :root {
+    --main-inline-size: 100%;
+    --card-image-container-size: 100vw;
+    --floppy-size: 28px;
+    --dialog-padding-inline: 40px;
+    --dialog-inline-size: 91vw;
+  }
+}

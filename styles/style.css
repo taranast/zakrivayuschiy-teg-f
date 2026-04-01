@@ -70,7 +70,7 @@
   inline-size: 100%;
   border-block: 2px solid currentColor;
   overflow: hidden;
-  block-size: var(--main-inline-size);
+  block-size: var(--card-image-container-size);
 }
 
 .label {
@@ -237,4 +237,10 @@
 .ok-button {
   padding-block: 11.5px;
   text-transform: uppercase;
+}
+
+@media (width <= 375.2px) {
+  .save-button {
+    flex-direction: column;
+  }
 }
