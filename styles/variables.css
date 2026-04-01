@@ -4,4 +4,9 @@
   --card-title-weight: 715;
   --card-text-weight: 410;
   --accent-font-weight: 400;
+  --main-background-color: #ffffff;
+  --main-inline-size: clamp(375px, 50%, 700px);
+  --header-logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --header-title-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --header-padding-block: clamp(122px, 2em, 130px);
 }

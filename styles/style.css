@@ -11,3 +11,33 @@
   flex-direction: column;
   align-items: center;
 }
+
+.content-container {
+  background-color: var(--main-background-color);
+  border: 2px solid currentColor;
+  inline-size: var(--main-inline-size);
+}
+
+.header {
+  font-family: var(--accent-font);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-block: var(--header-padding-block);
+  font-size: var(--header-logo-size);
+  align-items: center;
+  margin-block-end: 96px;
+}
+
+.logo {
+  font-size: inherit;
+  font-weight: var(--accent-font-weight);
+  line-height: 1em;
+}
+
+.header__title {
+  font-size: var(--header-title-size);
+  text-transform: uppercase;
+  line-height: 1em;
+  font-weight: var(--accent-font-weight);
+}
