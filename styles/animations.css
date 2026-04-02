@@ -70,7 +70,6 @@
 }
 
 .like-icon.is-liked .contour {
-  --heart-contour-color: red;
   transition-delay: 0.06s;
   transition-duration: 0.3s;
 }
@@ -81,6 +80,5 @@
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparks-opacity 0.3s ease-in;
-  animation-delay: 0.3s;
+  animation: sparks-opacity 0.3s ease-in 0.3s;
 }

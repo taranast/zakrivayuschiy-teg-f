@@ -29,3 +29,7 @@
     --dialog-inline-size: 91vw;
   }
 }
+
+.like-icon.is-liked .contour {
+  --heart-contour-color: red;
+}
