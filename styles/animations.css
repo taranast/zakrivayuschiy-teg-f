@@ -1,11 +1,26 @@
-/* Опишите в этом файле все keyframes для проекта и стили анимаций иконки Like.
+.contour {
+  transition: fill 0.1s linear;
+}
 
-Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
-✦ like-icon — для svg-иконки анимированного сердца
-✦ card__like-button — для кнопки Like рядом с иконкой
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
-✦ button__text — для обозначения текстового элемента внутри кнопки
+.main-body {
+  transition: fill 0.3s linear;
+}
 
-*/
+.core {
+  transition: fill 0.3s linear;
+  transition-delay: 0.03s;
+}
+
+.sparks {
+  opacity: 0%;
+}
+
+.card__icon-button:hover .core{
+  fill: var(--accent-color);
+  transition-delay: 0s;
+}
+
+.card__icon-button:hover .main-body{
+  fill: var(--accent-color);
+  transition-delay: 0.05s;
+}
