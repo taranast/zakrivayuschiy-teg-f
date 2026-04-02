@@ -561,20 +561,26 @@
           </article>
         </li>
       </ul>
-      <button class="button save-button" type="button" onclick="window['dialog'].showModal()">
+      <button
+        class="button save-button"
+        type="button"
+        onclick="window['dialog'].showModal()"
+      >
         <svg class="save-button__icon" viewBox="0 0 39 39">
           <use href="./svg/floppy.svg#floppy" />
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
       <dialog id="dialog" class="save-dialog">
-        <div class="dialog-description">
-          <svg class="dialog__icon" viewBox="0 0 39 39">
-            <use href="./svg/floppy.svg#floppy" />
-          </svg>
-          <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
-        </div>
-        <button class="button ok-button" type="button" onclick="window['dialog'].close()">
+        <svg class="save-dialog__icon" viewBox="0 0 39 39">
+          <use href="./svg/floppy.svg#floppy" />
+        </svg>
+        <p class="save-dialog__text">Вставьте дискету, чтобы продолжить</p>
+        <button
+          class="button ok-button"
+          type="button"
+          onclick="window['dialog'].close()"
+        >
           <span class="button__text">ок</span>
         </button>
       </dialog>
