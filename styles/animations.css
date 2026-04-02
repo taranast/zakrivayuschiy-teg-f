@@ -24,3 +24,13 @@
   fill: var(--accent-color);
   transition-delay: 0.05s;
 }
+
+.card__icon-button:active .core{
+  fill: var(--animation-fill-color);
+  transition-delay: 0s;
+}
+
+.card__icon-button:active .main-body{
+  fill: var(--animation-fill-color);
+  transition-delay: 0.05s;
+}
