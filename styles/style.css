@@ -185,6 +185,28 @@
   text-align: center;
   font-family: var(--accent-font), system-ui;
   transition: box-shadow 0.3s ease;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+.button__text {
+  position: relative;
+  color: var(--button-content-color);
+  mix-blend-mode: difference;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--accent-color);
+  block-size: 100%;
+  inline-size: 100%;
+  translate: -100% 0;
+  transition: translate 0.5s ease-in-out;
+  z-index: -1;
 }
 
 .button:focus {
@@ -194,6 +216,10 @@
 .button:focus-visible {
   outline: none;
   box-shadow: 2px 2px 0px 0px var(--accent-color);
+}
+
+.button:hover::after {
+  translate: 0 0;
 }
 
 .card__like-button {
@@ -212,6 +238,8 @@
 .save-button__icon {
   block-size: var(--floppy-size);
   inline-size: var(--floppy-size);
+  color: var(--button-content-color);
+  mix-blend-mode: difference;
 }
 
 .save-dialog:open {
