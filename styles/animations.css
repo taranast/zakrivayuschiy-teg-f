@@ -35,22 +35,22 @@
   opacity: 0%;
 }
 
-.card__icon-button:hover .core{
+.card__icon-button:hover .core {
   fill: var(--accent-color);
   transition-delay: 0s;
 }
 
-.card__icon-button:hover .main-body{
+.card__icon-button:hover .main-body {
   fill: var(--accent-color);
   transition-delay: 0.05s;
 }
 
-.card__icon-button:active .core{
+.card__icon-button:active .core {
   fill: var(--animation-fill-color);
   transition-delay: 0s;
 }
 
-.card__icon-button:active .main-body{
+.card__icon-button:active .main-body {
   fill: var(--animation-fill-color);
   transition-delay: 0.05s;
 }
