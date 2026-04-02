@@ -13,7 +13,8 @@
   --floppy-size: 21px;
   --dialog-padding-inline: 30px;
   --dialog-inline-size: 353px;
-  --heart-contour-color: #000;
+  --accent-color: #000000;
+  --heart-contour-color: #000000;
   --animation-fill-color: red;
   --sparks-color: red;
 }

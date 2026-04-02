@@ -167,6 +167,12 @@
   cursor: pointer;
   inline-size: 36px;
   block-size: 36px;
+  outline: 2px solid transparent;
+  transition: outline-color 0.3s ease;
+}
+
+.card__icon-button:focus-visible {
+  outline-color: var(--accent-color);
 }
 
 .button {
@@ -178,6 +184,16 @@
   line-height: 0.9em;
   text-align: center;
   font-family: var(--accent-font), system-ui;
+  transition: box-shadow 0.3s ease;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: none;
+  box-shadow: 2px 2px 0px 0px var(--accent-color);
 }
 
 .card__like-button {
