@@ -10,6 +10,18 @@
   --header-title-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   --header-padding-block: clamp(122px, 2em, 130px);
   --card-image-container-size: clamp(375px, 50vw, 700px);
+  --image-fit: fill;
+  --image-position: center;
+  --blur:0px;
+  --contrast:100%;
+  --brightness:100%;
+  --dropshadow:0px 0px 0px black;
+  --grayscale:0%;
+  --hue-rotate:0deg;
+  --invert:0%;
+  --opacity:100%;
+  --saturate:100%;
+  --sepia:0%;
   --floppy-size: 21px;
   --dialog-padding-inline: 30px;
   --dialog-inline-size: 353px;
@@ -28,6 +40,94 @@
     --dialog-padding-inline: 40px;
     --dialog-inline-size: 91vw;
   }
+}
+
+.covered {
+  --image-fit: cover;
+}
+
+.right-positioned {
+  --image-position: right;
+}
+
+.left-positioned {
+  --image-position: left;
+}
+
+.blurred-1 {
+  --blur: 1px;
+}
+
+.bright-80 {
+  --brightness: 80%;
+}
+
+.bright-130 {
+  --brightness: 130%;
+}
+
+.bright-150 {
+  --brightness: 150%;
+}
+
+.contrasted-80 {
+  --contrast: 80%;
+}
+
+.contrasted-90 {
+  --contrast: 90%;
+}
+
+.contrasted-110 {
+  --contrast: 110%;
+}
+
+.contrasted-130 {
+  --contrast: 130%;
+}
+
+.contrasted-140 {
+  --contrast: 140%;
+}
+
+.contrasted-160 {
+  --contrast: 160%;
+}
+
+.grayscaled-30 {
+  --grayscale: 30%;
+}
+
+.grayscaled-50 {
+  --grayscale: 50%;
+}
+
+.inverted-10 {
+  --invert: 10%;
+}
+
+.saturated-80 {
+  --saturate: 80%;
+}
+
+.saturated-120 {
+  --saturate: 120%;
+}
+
+.saturated-130 {
+  --saturate: 130%;
+}
+
+.saturated-150 {
+  --saturate: 150%;
+}
+
+.saturated-160 {
+  --saturate: 160%;
+}
+
+.sepia-20 {
+  --sepia: 20%;
 }
 
 .like-icon.is-liked .contour {
