@@ -158,11 +158,15 @@
 
 .card__buttons {
   display: flex;
-  gap: 11px;
+  align-items: center;
+  gap: 8px;
   align-self: end;
 }
 
 .card__icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   outline: 2px solid transparent;
   background-color: var(--main-background-color);
   transition: outline-color 0.3s ease;
@@ -223,7 +227,7 @@
 }
 
 .card__like-button {
-  padding-block: 11px;
+  padding-block: 11.1px;
   inline-size: 130px;
 }
 
