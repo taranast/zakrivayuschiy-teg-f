@@ -58,38 +58,26 @@
   --blur: 1px;
 }
 
-.low-bright {
-  --brightness: 80%;
+.bright {
+  --brightness: 110%;
 }
 
-.high-bright {
-  --brightness: 140%;
+.contrasted {
+  --contrast: 110%;
 }
 
-.low-contrasted {
-  --contrast: 85%;
-}
-
-.high-contrasted {
-  --contrast: 135%;
-}
-
-.low-grayscaled {
+.grayscaled {
   --grayscale: 40%;
 }
 
-.low-inverted {
+.inverted {
   --invert: 10%;
 }
 
-.low-saturated {
-  --saturate: 80%;
+.saturated {
+  --saturate: 110%;
 }
 
-.high-saturated {
-  --saturate: 140%;
-}
-
-.low-sepia {
+.sepia {
   --sepia: 20%;
 }
