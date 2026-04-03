@@ -54,82 +54,42 @@
   --image-position: left;
 }
 
-.blurred-1 {
+.blurred {
   --blur: 1px;
 }
 
-.bright-80 {
+.low-bright {
   --brightness: 80%;
 }
 
-.bright-130 {
-  --brightness: 130%;
+.high-bright {
+  --brightness: 140%;
 }
 
-.bright-150 {
-  --brightness: 150%;
+.low-contrasted {
+  --contrast: 85%;
 }
 
-.contrasted-80 {
-  --contrast: 80%;
+.high-contrasted{
+  --contrast: 135%;
 }
 
-.contrasted-90 {
-  --contrast: 90%;
+.low-grayscaled {
+  --grayscale: 40%;
 }
 
-.contrasted-110 {
-  --contrast: 110%;
-}
-
-.contrasted-130 {
-  --contrast: 130%;
-}
-
-.contrasted-140 {
-  --contrast: 140%;
-}
-
-.contrasted-160 {
-  --contrast: 160%;
-}
-
-.grayscaled-30 {
-  --grayscale: 30%;
-}
-
-.grayscaled-50 {
-  --grayscale: 50%;
-}
-
-.inverted-10 {
+.low-inverted {
   --invert: 10%;
 }
 
-.saturated-80 {
+.low-saturated {
   --saturate: 80%;
 }
 
-.saturated-120 {
-  --saturate: 120%;
+.high-saturated {
+  --saturate: 140%;
 }
 
-.saturated-130 {
-  --saturate: 130%;
-}
-
-.saturated-150 {
-  --saturate: 150%;
-}
-
-.saturated-160 {
-  --saturate: 160%;
-}
-
-.sepia-20 {
+.low-sepia {
   --sepia: 20%;
-}
-
-.like-icon.is-liked .contour {
-  --heart-contour-color: red;
 }
