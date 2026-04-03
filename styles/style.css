@@ -100,11 +100,11 @@
 } 
 
 .card__image {
-  inline-size: 100%;
-  block-size: 100%;
   object-fit: var(--image-fit);
   object-position: var(--image-position);
-  filter: blur(var(--blur)) contrast(var(--contrast)) brightness(var(--brightness)) drop-shadow(var(--dropshadow)) grayscale(var(--grayscale)) hue-rotate(var(--hue-rotate)) invert(var(--invert)) opacity(var(--opacity)) saturate(var(--saturate)) sepia(var(--sepia));;
+  filter: blur(var(--blur)) contrast(var(--contrast)) brightness(var(--brightness)) drop-shadow(var(--dropshadow)) grayscale(var(--grayscale)) hue-rotate(var(--hue-rotate)) invert(var(--invert)) opacity(var(--opacity)) saturate(var(--saturate)) sepia(var(--sepia));
+  inline-size: 100%;
+  block-size: 100%;;
 }
 
 .card__content {
